@@ -371,9 +371,9 @@
                 <version>${version.org.wso2.orbit.javax.xml.bind}</version>
             </dependency>
             <dependency>
-                <groupId>com.jayway.jsonpath</groupId>
+                <groupId>org.wso2.orbit.com.jayway.jsonpath</groupId>
                 <artifactId>json-path</artifactId>
-                <version>${jsonpath.version}</version>
+                <version>${jayway.jsonpath.orbit.version}</version>
             </dependency>
             <dependency>
                 <groupId>net.minidev</groupId>
@@ -1466,11 +1466,11 @@
         <carbon.analytics.common.version>5.1.51-SNAPSHOT</carbon.analytics.common.version>
 
         <!-- Carbon kernel version -->
-        <carbon.kernel.version>4.4.26</carbon.kernel.version>
+        <carbon.kernel.version>4.4.37-SNAPSHOT</carbon.kernel.version>
         <!--<carbon.kernel.imp.pkg.version>[4.3.0, 4.4.0)</carbon.kernel.imp.pkg.version>-->
         <securevault.wso2.version>1.0.0-wso2v2</securevault.wso2.version>
 
-        <carbon.commons.version>4.6.19</carbon.commons.version>
+        <carbon.commons.version>4.6.51-SNAPSHOT</carbon.commons.version>
         <!--<carbon.deployment.version>4.3.1</carbon.deployment.version>-->
         <!--<carbon.commons.imp.pkg.version>[4.3.0, 4.4.0)</carbon.commons.imp.pkg.version>-->
 
@@ -1495,7 +1495,7 @@
         <libthrift.wso2.version.hector>0.7.0.wso2v2</libthrift.wso2.version.hector>
         <orbit.version.commons.lang>2.6.0.wso2v1</orbit.version.commons.lang>
         <gson.version>2.5</gson.version>
-        <slf4j.version>1.7.21</slf4j.version>
+        <slf4j.version>1.7.25</slf4j.version>
         <geronimo-jms.version>1.1.1</geronimo-jms.version>
         <hector.wso2.version>1.1.4.wso2v1</hector.wso2.version>
         <junit.version>4.10</junit.version>
@@ -1508,6 +1508,7 @@
         <version.org.wso2.orbit.javax.xml.bind>2.3.1.wso2v1</version.org.wso2.orbit.javax.xml.bind>
         <!--<httpclient.wso2.version>4.2.5.wso2v1</httpclient.wso2.version>-->
         <jsonpath.version>0.9.1</jsonpath.version>
+        <jayway.jsonpath.orbit.version>2.4.0.wso2v2</jayway.jsonpath.orbit.version>
         <jsonsmart.version>1.2</jsonsmart.version>
         <javax.websocket.version>1.0</javax.websocket.version>
         <jaggery.version>0.12.8</jaggery.version>
